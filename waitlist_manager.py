@@ -1,5 +1,10 @@
 # Create a Node class to represent each customer in the waitlist
 class Node:
+
+    def __init__(self, name):
+        self.name = name
+        self.next = None
+
     '''
     A class representing a node in a linked list.
     Attributes:
