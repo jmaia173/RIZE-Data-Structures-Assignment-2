@@ -21,6 +21,12 @@ class LinkedList:
 
     def __init__(self):
         self.head = None
+
+    def add_front(self, name):
+        new_node = Node(name)
+        new_node.next = self.head
+        self.head = new_node
+        return f"{name} added to the front of the waitlist"
     '''
     A class representing a linked list to manage a waitlist.
     Attributes:
