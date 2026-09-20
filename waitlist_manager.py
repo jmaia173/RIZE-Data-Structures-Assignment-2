@@ -18,6 +18,9 @@ class Node:
 
 # Create a LinkedList class to manage the waitlist
 class LinkedList:
+
+    def __init__(self):
+        self.head = None
     '''
     A class representing a linked list to manage a waitlist.
     Attributes:
